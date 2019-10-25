@@ -37,8 +37,9 @@ flex-wrap: wrap;
 .mainMenu{
   
     background-color:#e1e1e1;
-    height:5vh;
-    line-height: 5vh;
+    height:10vh;
+    line-height: 10vh;
+    color:#1b271b;
 }
 .flex-content{
     padding: 1rem;
@@ -46,6 +47,26 @@ flex-wrap: wrap;
     background-image: url("../img/backImg1.jpg");
     height: 50vmin;
     background-size:cover;
+}
+.flex-content.hair{
+   
+    background-image: url("../img/hair.jpg");
+   
+}
+.flex-content.face{
+   
+    background-image: url("../img/face.jpeg");
+   
+}
+.flex-content.body{
+   
+    background-image: url("../img/body.jpg");
+   
+}
+.flex-content.skin{
+   
+    background-image: url("../img/skin.jpg");
+   
 }
 .flex-asid{
     padding: 1rem;
@@ -58,6 +79,14 @@ flex-wrap: wrap;
    
 
 }
+a {
+    text-decoration: none;
+
+}
+.flex-header a{
+    color: whitesmoke;
+}
+   
 
 @media(min-width:600px) and (max-width:1000px){
     .flex-main{
@@ -67,7 +96,7 @@ flex-wrap: wrap;
     
     }
     .flex-nav{
-        margin: 0px;
+        margin: 5px 0;
         background-color:#e1e1e1;
     display: flex;
     flex-direction: row;
@@ -84,6 +113,7 @@ flex-wrap: wrap;
         
     }
     .flex-content{
+        margin: 5px 5px 5px 0;
         padding: 1rem;
         background-color: aquamarine;
         background-image: url("../img/backImg1.jpg");
@@ -92,6 +122,7 @@ flex-wrap: wrap;
         flex: 3;
     }
     .flex-asid{
+        margin: 5px 0 5px 5px;
         padding: 1rem;
         background-color: #e1e1e1;
         height: 60vh;
@@ -119,9 +150,9 @@ flex-wrap: wrap;
     }
     .mainMenu{
        
-        height:5vmin;
+        height:5vh;
         vertical-align:middle;
-        line-height: 5vmin;
+        line-height: 5vh;
         text-align: left;
         padding:0 0 0 1rem;
         border: 1px solid #515151;
