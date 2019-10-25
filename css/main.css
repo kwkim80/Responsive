@@ -1,0 +1,144 @@
+*{
+ margin:2px 5px;
+}
+body{
+    font:serif bold 22px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    height:100vh;
+  
+}
+.flex-header{
+    padding: 2rem;
+  
+background-image: url("../img/spa1.jpeg");
+font-size:40px;
+color:white;
+height: 13vh;
+}
+.flex-main{
+  
+  
+    flex:1;
+    
+
+}
+.flex-nav{
+    margin: 0px;
+    background-color:white;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+
+
+
+}
+.mainMenu{
+  
+    background-color:#e1e1e1;
+    height:5vh;
+    line-height: 5vh;
+}
+.flex-content{
+    padding: 1rem;
+    background-color: aquamarine;
+    background-image: url("../img/backImg1.jpg");
+    height: 50vmin;
+    background-size:cover;
+}
+.flex-asid{
+    padding: 1rem;
+    background-color: #e1e1e1;
+    height: 30vh;
+}
+.flex-footer{
+    padding: 1rem;
+    background-color: #a1a1a1;
+   
+
+}
+
+@media(min-width:600px) and (max-width:1000px){
+    .flex-main{
+          display: flex;
+        flex-wrap: wrap;
+        flex:1;
+    
+    }
+    .flex-nav{
+        margin: 0px;
+        background-color:#e1e1e1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+     flex-basis: 100%;
+     
+    justify-content:space-around;
+    
+    
+    }
+    .mainMenu{
+     
+        flex:1;
+        
+    }
+    .flex-content{
+        padding: 1rem;
+        background-color: aquamarine;
+        background-image: url("../img/backImg1.jpg");
+      height: 60vh;
+        background-size:cover;
+        flex: 3;
+    }
+    .flex-asid{
+        padding: 1rem;
+        background-color: #e1e1e1;
+        height: 60vh;
+        flex:1;
+    }
+}
+
+@media(min-width:1000px){
+    .flex-main{
+  
+        display: flex;
+        flex-wrap: wrap;
+        flex:1;
+        
+    
+    }
+    .flex-nav{
+        margin: 0px;
+        background-color:   #e1e1e1;
+    display: flex;
+    flex-direction: column;
+     
+    flex:1;
+    
+    }
+    .mainMenu{
+       
+        height:5vmin;
+        vertical-align:middle;
+        line-height: 5vmin;
+        text-align: left;
+        padding:0 0 0 1rem;
+        border: 1px solid #515151;
+    }
+    .flex-content{
+        padding: 1rem;
+       
+        background-image: url("../img/backImg1.jpg");
+      height: 64vmin;
+        background-size:cover;
+        flex: 3;
+    }
+    .flex-asid{
+        padding: 1rem;
+        background-color: #e1e1e1;
+        height:  64vmin;
+        flex:1;
+    }
+}
+
